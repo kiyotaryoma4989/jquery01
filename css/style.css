@@ -5,6 +5,12 @@ html{
 	padding: 0;
 	background: #333;
 	font-family: "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: black;
 }
 
 img {

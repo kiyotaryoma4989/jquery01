@@ -3,23 +3,23 @@
 <head>
 	<meta charset="utf-8">
 	<title>Jqueryを使って遊ぶ</title>
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="js/vendor/jquery-1.10.2.min.js"></script>
 	<script src="js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+	<script src="js/vendor/lightbox.js"></script>
 	<script src="js/main.js"></script>
 </head>
 <body>
-
 <main>
     <aside>
         <ul>
-            <li><a href="#"><img src="img/01_aside.JPG"></a></li>
-            <li><a href="#"><img src="img/02_aside.JPG"></a></li>
-            <li><a href="#"><img src="img/03_aside.JPG"></a></li>
+            <li><a href="img/01_aside.JPG" data-lightbox="img01"><img src="img/01_aside.JPG"></a></li>
+            <li><a href="img/02_aside.JPG" data-lightbox="img02"><img src="img/02_aside.JPG"></a></li>
+            <li><a href="img/03_aside.jpg" data-lightbox="img03"><img src="img/03_aside.jpg"></a></li>
         </ul>
         <button><img src="img/btn_open.png"></button>
     </aside>
 </main>
-
 </body>
 </html>
